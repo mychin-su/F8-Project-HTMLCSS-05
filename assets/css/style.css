@@ -5,6 +5,7 @@
 html {
     font-size: 62.5%;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -76,9 +77,11 @@ a {
 /* Header */
 
 .header {
-    min-height: 100vh;
-    margin-top: 52px;
-    padding-bottom: 79px;
+    padding: 30px 0 20px;
+    position: sticky;
+    z-index: 1;
+    top: -10px;
+    background: #fff;
 }
 
 .logo {
@@ -123,9 +126,8 @@ a {
 }
 
 .header__item-link:hover {
-    font-weight: 600;
-    font-size: 1.6rem;
-    color: #2f3a3b;
+    color: #000958;
+    text-shadow: 1px 0 currentColor;
 }
 
 .action-btn {
@@ -165,7 +167,7 @@ a {
 }
 
 .hero {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .hero-content {
